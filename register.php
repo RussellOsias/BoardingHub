@@ -14,7 +14,6 @@ if(isset($_SESSION['username'])){
 $fname = $lname = $email = $username = $password = $confirm_password = "";
 $fname_err = $lname_err = $email_err = $username_err = $password_err = $confirm_password_err = "";
 
-
 if($_SERVER['REQUEST_METHOD']=="POST"){
     //Check if first name is empty
     if(empty(trim($_POST['fname']))){
@@ -29,7 +28,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             //Set the value of param fname
             $param_fname = trim($_POST['fname']);
             //Try to execute the statement
-            if(mysqli_execute($stmt)){
+            if(mysqli_stmt_execute($stmt)){
                 mysqli_stmt_store_result($stmt);
                 $fname = trim($_POST['fname']);
             }
@@ -46,14 +45,13 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     else{
         $sql = "SELECT id FROM loginform WHERE lname = ?";
         $stmt = mysqli_prepare($conn, $sql);
-        $results = mysqli_query($conn, $sql);
         if($stmt){
             mysqli_stmt_bind_param($stmt, "s", $param_lname);
 
             //Set the value of param lname
             $param_lname = trim($_POST['lname']);
             //Try to execute the statement
-            if(mysqli_execute($stmt)){
+            if(mysqli_stmt_execute($stmt)){
                 mysqli_stmt_store_result($stmt);
                 $lname = trim($_POST['lname']);
             }
@@ -62,7 +60,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             }
         }
     }
-    
+
     //Check if email is empty
     if(empty(trim($_POST['email']))){
         $email_err = "Email cannot be blank";
@@ -76,7 +74,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             //Set the value of param email
             $param_email = trim($_POST['email']);
             //Try to execute the statement
-            if(mysqli_execute($stmt)){
+            if(mysqli_stmt_execute($stmt)){
                 mysqli_stmt_store_result($stmt);
                 if(mysqli_stmt_num_rows($stmt) == 1){
                     $email_err = "This email is already taken";
@@ -104,7 +102,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             //Set the value of param username
             $param_username = trim($_POST['username']);
             //Try to execute the statement
-            if(mysqli_execute($stmt)){
+            if(mysqli_stmt_execute($stmt)){
                 mysqli_stmt_store_result($stmt);
                 if(mysqli_stmt_num_rows($stmt) == 1){
                     $username_err = "This username is already taken";
@@ -118,7 +116,6 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             }
         }
     }
-    
 
     //Password validation
     if(empty(trim($_POST['password']))){
@@ -183,11 +180,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     }
     mysqli_close($conn);
 }
-
-
 ?>
-
-
 
 <!doctype html>
 <html lang="en">
