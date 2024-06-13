@@ -270,12 +270,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>Boarding Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <title>BOARDING HUB</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Boarding Hub</a>
+            <a class="navbar-brand" href="#">BOARDING HUB</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="accountInfo.php"><?php echo $_SESSION['fname']?> <i class="fa fa-user" aria-hidden="true"></i></a>
@@ -299,7 +300,7 @@
     </nav>
 
     <section class="image" id="image">
-        <a><img src="https://i.imgur.com/OYzi2Dm.png" title="source: imgur.com" style="width: 100%"/></a>
+        <a><img src="img/boarding house.jpg" title="source: imgur.com" style="width: 100%"/></a>
     </section>
 
     <div class="content" style="text-align: center;
@@ -337,7 +338,7 @@
             <h4 style="text-align: center;"><?php echo $m?></h4>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="https://i.imgur.com/bUisFpo.png" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/1room.jpg" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Standard (Single)</h3>
@@ -384,7 +385,7 @@
             </div>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="https://i.imgur.com/CiFTH6P.png" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/2bedroom.jpg" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Standard (Double)</h3>
@@ -432,7 +433,7 @@
             </div>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="https://i.imgur.com/ZgBQnwI.png" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/4bedroom.jfif" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Deluxe (Single)</h3>
@@ -481,7 +482,7 @@
             </div>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="https://i.imgur.com/9Z3O837.png" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/6bedroom.jpg" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Deluxe (Double)</h3>

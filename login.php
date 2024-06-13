@@ -91,7 +91,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Boarding Hub</a>
+            <a class="navbar-brand" href="#">BOARDING HUB</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="register.php">Register <i class="fa fa-user-plus" aria-hidden="true"></i></a>
@@ -106,26 +106,21 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         </div>
     </nav>
 
-<div class="container mt-4">
-    <h2>Please Login</h2>
+    <div class="container mt-4">
+    <h2 class="text-center">Please Login</h2>
     <hr>
     <form action="" method="post">
-        <div class="mb-3">
-                <label for="inputUname" class="form-label">Username</label>   
-                <input type="text" class="form-control" name="username" id="inputUname" style="width: 70%;">
+        <div class="form-group mb-3">
+            <label for="inputUname" class="form-label">Username</label>
+            <input type="text" class="form-control" name="username" id="inputUname" placeholder="Enter username">
         </div>
-        <div class="mb-3">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-            <input type="password" class="form-control" name="password" id="inputPassword3" style="width: 70%;">
+        <div class="form-group mb-3">
+            <label for="inputPassword3" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Enter password">
         </div>
-        <br>
-        <div class="row">
-            <div class="col-6">
-                <button type="submit" name="login" class="btn btn-primary">Log In</button>
-            </div>
-            <div class="col-6">
-                <button type="submit" name="forgotPassword" class="btn btn-primary" id="forgotPassword" onmouseover="this.style.backgroundColor='rgb(170, 0, 0)';return true;" onmouseout="this.style.backgroundColor='red';return true;" style="background: red; border: red;">Forgot Password</button>
-            </div>
+        <div class="d-flex justify-content-between">
+            <button type="submit" name="login" class="btn btn-primary">Log In</button>
+            <button type="submit" name="forgotPassword" class="btn btn-danger">Forgot Password</button>
         </div>
     </form>
 </div>
