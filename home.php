@@ -338,7 +338,7 @@
             <h4 style="text-align: center;"><?php echo $m?></h4>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="img/1room.jpg" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/standard_single.jpg" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Standard (Single)</h3>
@@ -385,7 +385,7 @@
             </div>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="img/2bedroom.jpg" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/standard_double.jpg" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Standard (Double)</h3>
@@ -433,7 +433,7 @@
             </div>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="img/4bedroom.jfif" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/delux_single.jpg" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Deluxe (Single)</h3>
@@ -482,7 +482,7 @@
             </div>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="img/6bedroom.jpg" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/delux_double.jpg" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Deluxe (Double)</h3>
@@ -532,7 +532,7 @@
             </div>
             <div class="row" style="background: orange; margin: 2%; border-radius: 20px;">
                 <div class="col-md-4" style="padding: 30px;">
-                    <img src="https://i.imgur.com/6Ygg842.png" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
+                    <img src="img/delux_suite.jpg" title="source: imgur.com" style="width: 100%; border: 4px solid white; border-radius: 10px; margin-top: 12px;"/>
                 </div>
                 <div class="col-md-4" style="padding: 30px;">
                     <h3>Deluxe Suite</h3>
