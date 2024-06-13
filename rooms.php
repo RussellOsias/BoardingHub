@@ -169,12 +169,12 @@
                     <h3>Standard (Single)</h3>
                     <hr style="color: black; height: 1.5px; opacity: 0.4;">
                     <div class="col">
-                        <label for="npss" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8377;)</label>
+                        <label for="npss" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="npss" min="0" value="<?php echo $pSS?>" id="npss">
                     </div>
                     <br>
                     <div class="col">
-                        <label for="dpss" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8377;)</label>
+                        <label for="dpss" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="dpss" min="0" max="<?php echo $pSS?>" value="<?php echo $dpSS?>" id="dpss">
                     </div>
                 </div>
@@ -187,12 +187,12 @@
                     <h3>Standard (Double)</h3>
                     <hr style="color: black; height: 1.5px; opacity: 0.4;">
                     <div class="col">
-                        <label for="npsd" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8377;)</label>
+                        <label for="npsd" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="npsd" min="0" value="<?php echo $pSD?>" id="npsd">
                     </div>
                     <br>
                     <div class="col">
-                        <label for="dpsd" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8377;)</label>
+                        <label for="dpsd" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="dpsd" min="0" max="<?php echo $pSD?>" value="<?php echo $dpSD?>" id="dpsd">
                     </div>
                 </div>
@@ -205,12 +205,12 @@
                     <h3>Deluxe (Single)</h3>
                     <hr style="color: black; height: 1.5px; opacity: 0.4;">
                     <div class="col">
-                        <label for="npds" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8377;)</label>
+                        <label for="npds" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="npds" min="0" value="<?php echo $pDS?>" id="npds">
                     </div>
                     <br>
                     <div class="col">
-                        <label for="dpds" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8377;)</label>
+                        <label for="dpds" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="dpds" min="0" max="<?php echo $pDS?>" value="<?php echo $dpDS?>" id="dpds">
                     </div>
                 </div>
@@ -223,12 +223,12 @@
                     <h3>Deluxe (Double)</h3>
                     <hr style="color: black; height: 1.5px; opacity: 0.4;">
                     <div class="col">
-                        <label for="npdd" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8377;)</label>
+                        <label for="npdd" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="npdd" min="0" value="<?php echo $pDD?>" id="npdd">
                     </div>
                     <br>
                     <div class="col">
-                        <label for="dpdd" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8377;)</label>
+                        <label for="dpdd" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="dpdd" min="0" max="<?php echo $pDD?>" value="<?php echo $dpDD?>" id="dpdd">
                     </div>
                 </div>
@@ -241,12 +241,12 @@
                     <h3>Deluxe Suite</h3>
                     <hr style="color: black; height: 1.5px; opacity: 0.4;">
                     <div class="col">
-                        <label for="npdst" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8377;)</label>
+                        <label for="npdst" class="form-label" style="font-weight: bold;">Nightly Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="npdst" min="0" value="<?php echo $pDSt?>" id="npdst">
                     </div>
                     <br>
                     <div class="col">
-                        <label for="dpdst" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8377;)</label>
+                        <label for="dpdst" class="form-label" style="font-weight: bold;">Discounted Price/Room (&#8369;)</label>
                         <input type="number" class="form-control" name="dpdst" min="0" max="<?php echo $pDSt?>" value="<?php echo $dpDSt?>" id="dpdst">
                     </div>
                 </div>

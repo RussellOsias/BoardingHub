@@ -352,10 +352,10 @@
                             <td style="border: 1px solid black; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;font-weight: bold;">
                                 <?php 
                                     if($_SESSION["dpSS"]>0){
-                                        echo "<s style='color: darkred;'>&#8377;".$_SESSION['pSS']."</s>&nbsp;&#8377;".$_SESSION["dpSS"];
+                                        echo "<s style='color: darkred;'>&#8369;".$_SESSION['pSS']."</s>&nbsp;&#8369;".$_SESSION["dpSS"];
                                     }
                                     else{
-                                        echo "&#8377;".$_SESSION['pSS'];
+                                        echo "&#8369;".$_SESSION['pSS'];
                                     }
                                 ?>
                             </td>
@@ -400,10 +400,10 @@
                                 <?php 
                                 
                                     if($_SESSION["dpSD"]>0){
-                                        echo "<s style='color: darkred;'>&#8377;".$_SESSION['pSD']."</s>&nbsp;&#8377;".$_SESSION["dpSD"];
+                                        echo "<s style='color: darkred;'>&#8369;".$_SESSION['pSD']."</s>&nbsp;&#8369;".$_SESSION["dpSD"];
                                     }
                                     else{
-                                        echo "&#8377;".$_SESSION['pSD'];
+                                        echo "&#8369;".$_SESSION['pSD'];
                                     }
                                 ?>
                             </td>
@@ -447,10 +447,10 @@
                             <td style="border: 1px solid black; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;font-weight: bold;">
                                 <?php 
                                     if($_SESSION["dpDS"]>0){
-                                        echo "<s style='color: darkred;'>&#8377;".$_SESSION['pDS']."</s>&nbsp;&#8377;".$_SESSION["dpDS"];
+                                        echo "<s style='color: darkred;'>&#8369;".$_SESSION['pDS']."</s>&nbsp;&#8369;".$_SESSION["dpDS"];
                                     }
                                     else{
-                                        echo "&#8377;".$_SESSION['pDS'];
+                                        echo "&#8369;".$_SESSION['pDS'];
                                     }
                                 ?>
                             </td>
@@ -496,10 +496,10 @@
                             <td style="border: 1px solid black; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;font-weight: bold;">
                                 <?php 
                                     if($_SESSION["dpDD"]>0){
-                                        echo "<s style='color: darkred;'>&#8377;".$_SESSION['pDD']."</s>&nbsp;&#8377;".$_SESSION["dpDD"];
+                                        echo "<s style='color: darkred;'>&#8369;".$_SESSION['pDD']."</s>&nbsp;&#8369;".$_SESSION["dpDD"];
                                     }
                                     else{
-                                        echo "&#8377;".$_SESSION['pDD'];
+                                        echo "&#8369;".$_SESSION['pDD'];
                                     }
                                 ?>
                             </td>
@@ -546,10 +546,10 @@
                             <td style="border: 1px solid black; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;font-weight: bold;">
                                 <?php 
                                     if($_SESSION["dpDSt"]>0){
-                                        echo "<s style='color: darkred;'>&#8377;".$_SESSION['pDSt']."</s>&nbsp;&#8377;".$_SESSION["dpDSt"];
+                                        echo "<s style='color: darkred;'>&#8369;".$_SESSION['pDSt']."</s>&nbsp;&#8369;".$_SESSION["dpDSt"];
                                     }
                                     else{
-                                        echo "&#8377;".$_SESSION['pDSt'];
+                                        echo "&#8369;".$_SESSION['pDSt'];
                                     }
                                 ?>
                             </td>
