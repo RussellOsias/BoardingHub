@@ -271,12 +271,41 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>BOARDING HUB</title>
+    <title>Boarding Hub</title>
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+        .navbar-brand {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2rem;
+        }
+        .reset-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background: #ffffff;
+        }
+        .reset-container h2 {
+            margin-bottom: 20px;
+            font-family: 'Lucida Handwriting', cursive;
+        }
+        .btn-custom {
+            background: #343a40;
+            color: #ffffff;
+            border-radius: 25px;
+        }
+        .btn-custom:hover {
+            background: #495057;
+        }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">BOARDING HUB</a>
+            <a class="navbar-brand" href="#">Boarding Hub</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="accountInfo.php"><?php echo $_SESSION['fname']?> <i class="fa fa-user" aria-hidden="true"></i></a>
@@ -311,8 +340,13 @@
             overflow: hidden;
             z-index: 5;
             color: #fff;">
-        <h1 style="-webkit-text-stroke-width: 2px;-webkit-text-stroke-color: black;
-        font-size: 200px; font-family:brush script mt">Welcome</h1>
+            <h1 style="-webkit-text-stroke-width: 2px;-webkit-text-stroke-color: black;
+            font-size: 200px; font-family:brush script mt">Welcome</h1>
+
+            <h3 style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;
+            font-size: 40px; font-family:brush script mt; color: white; background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px;">
+                “Opening doors to the future. Premium quality rooms. Proper Design. Smartly Priced. Remarkable Value. Unbeatable Location.”
+            </h3>
     </div>
     
     <div class="container mt-4" style="width: 1500px;">

@@ -37,6 +37,36 @@
     
     <title>Boarding Hub</title>
   </head>
+  <style>
+        body {
+            background: #f8f9fa;
+        }
+        .navbar-brand {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2rem;
+        }
+        .reset-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background: #ffffff;
+        }
+        .reset-container h2 {
+            margin-bottom: 20px;
+            font-family: 'Lucida Handwriting', cursive;
+        }
+        .btn-custom {
+            background: #343a40;
+            color: #ffffff;
+            border-radius: 25px;
+        }
+        .btn-custom:hover {
+            background: #495057;
+        }
+    </style>
+
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -107,7 +137,7 @@
 <?php if($_SESSION["admin"]=='NO'): ?>
     <form action="" method="post">
         <?php
-            date_default_timezone_set("Asia/Calcutta");
+            date_default_timezone_set("Asia/Manila");
             $dt = date('Y-m-d');
             $sql = "SELECT * FROM bookings WHERE username='".$_SESSION['username']."' AND checkInDate<='$dt' AND checkOutDate>='$dt'";
             $results = mysqli_query($conn, $sql);
@@ -195,7 +225,7 @@
         </div></div><br>
 
         <?php
-            date_default_timezone_set("Asia/Calcutta");
+            date_default_timezone_set("Asia/Manila");
             $dt = date('Y-m-d');
             $sql = "SELECT * FROM bookings WHERE username='".$_SESSION['username']."' AND checkInDate>'$dt'";
             $results = mysqli_query($conn, $sql);
@@ -271,7 +301,7 @@
 
 
         <?php
-            date_default_timezone_set("Asia/Calcutta");
+            date_default_timezone_set("Asia/Manila");
             $dt = date('Y-m-d');
             $sql = "SELECT * FROM bookings WHERE username='".$_SESSION['username']."' AND checkOutDate<'$dt'";
             $results = mysqli_query($conn, $sql);

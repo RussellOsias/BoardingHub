@@ -271,7 +271,7 @@ foreach($cartItemN as $cn){
     $html .= '<tr>';
     $html .= '<td style="font-size: 16.5px; padding-right: 30px; padding-bottom: 10px; padding-top: 10px;">' . $cn . '</td>';
     $html .= '<td style="font-size: 16.5px; padding-left: 30px; padding-bottom: 10px; padding-top: 10px;">' . $cartItemQ[$i] . '</td>';
-    $html .= '<td style="font-size: 16.5px; padding-left: 30px; padding-bottom: 10px; padding-top: 10px;">&#8377;' . $cartItemP[$i]*$_SESSION["totDays"] . '</td>';
+    $html .= '<td style="font-size: 16.5px; padding-left: 30px; padding-bottom: 10px; padding-top: 10px;">&#8369;' . $cartItemP[$i]*$_SESSION["totDays"] . '</td>';
     $html .= '</tr>';
     $i++;
 }
@@ -279,17 +279,17 @@ foreach($cartItemN as $cn){
 $html .= '<tr>';
 $html .= '<td style="font-size: 16.5px; font-weight: bold;padding-right: 30px; border-top: 1px solid black; padding-bottom: 10px; padding-top: 10px;">Total</td>';
 $html .= '<td style="font-size: 16.5px; font-weight: bold;padding-left: 30px; border-top: 1px solid black; padding-bottom: 10px; padding-top: 10px;">'.$_SESSION["nSS"]+$_SESSION["nSD"]+$_SESSION["nDS"]+$_SESSION["nDD"]+$_SESSION["nDSt"].'</td>';
-$html .= '<td style="font-size: 16.5px; font-weight: bold;padding-left: 30px; border-top: 1px solid black; padding-bottom: 10px; padding-top: 10px;">&#8377;'.$_SESSION["totExclTax"].'</td>';
+$html .= '<td style="font-size: 16.5px; font-weight: bold;padding-left: 30px; border-top: 1px solid black; padding-bottom: 10px; padding-top: 10px;">&#8369;'.$_SESSION["totExclTax"].'</td>';
 $html .= '</tr>';
 $html .= '<tr>';
 $html .= '<td style="font-size: 16.5px; padding-right: 30px; padding-bottom: 10px;">Tax ('.$_SESSION["taxp"].'%)</td>';
 $html .= '<td style="font-size: 16.5px; padding-left: 30px; padding-bottom: 10px;"> </td>';
-$html .= '<td style="font-size: 16.5px; padding-left: 30px; padding-bottom: 10px;">&#8377;'.$_SESSION["tax"].'</td>';
+$html .= '<td style="font-size: 16.5px; padding-left: 30px; padding-bottom: 10px;">&#8369;'.$_SESSION["tax"].'</td>';
 $html .= '</tr>';
 $html .= '<tr>';
 $html .= '<td style="font-weight: bold; padding-right: 30px; border-top: 1px solid black; padding-top: 10px; font-size: 16.5px;">Net Total</td>';
 $html .= '<td style="font-weight: bold; padding-left: 30px; border-top: 1px solid black; padding-top: 10px; font-size: 16.5px;">'.$_SESSION["nSS"]+$_SESSION["nSD"]+$_SESSION["nDS"]+$_SESSION["nDD"]+$_SESSION["nDSt"].'</td>';
-$html .= '<td style="font-size: 16.5px; font-weight: bold; padding-left: 30px; border-top: 1px solid black; padding-top: 10px;">&#8377;'.$_SESSION["totPrice"].'</td>';
+$html .= '<td style="font-size: 16.5px; font-weight: bold; padding-left: 30px; border-top: 1px solid black; padding-top: 10px;">&#8369;'.$_SESSION["totPrice"].'</td>';
 $html .= '</tr>';
 
 $html .= '</table>';
@@ -309,6 +309,35 @@ $_SESSION['cartTable'] = $html;
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>Boarding Hub</title>
   </head>
+  <style>
+        body {
+            background: #f8f9fa;
+        }
+        .navbar-brand {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2rem;
+        }
+        .reset-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background: #ffffff;
+        }
+        .reset-container h2 {
+            margin-bottom: 20px;
+            font-family: 'Lucida Handwriting', cursive;
+        }
+        .btn-custom {
+            background: #343a40;
+            color: #ffffff;
+            border-radius: 25px;
+        }
+        .btn-custom:hover {
+            background: #495057;
+        }
+    </style>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
