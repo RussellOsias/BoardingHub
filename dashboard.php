@@ -22,35 +22,6 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>Boarding Hub</title>
-    <style>
-        body {
-            background: #f8f9fa;
-        }
-        .navbar-brand {
-            font-family: 'Brush Script MT', cursive;
-            font-size: 2rem;
-        }
-        .reset-container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            background: #ffffff;
-        }
-        .reset-container h2 {
-            margin-bottom: 20px;
-            font-family: 'Lucida Handwriting', cursive;
-        }
-        .btn-custom {
-            background: #343a40;
-            color: #ffffff;
-            border-radius: 25px;
-        }
-        .btn-custom:hover {
-            background: #495057;
-        }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
