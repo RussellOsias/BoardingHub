@@ -79,45 +79,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link rel="stylesheet" href="style.css" />
     <title>Boarding Hub - Login</title>
-    <style>
-        body {
-            background: #f8f9fa;
-        }
-        .navbar-brand {
-            font-family: 'Brush Script MT', cursive;
-            font-size: 2rem;
-        }
-        .login-container {
-            max-width: 450px;
-            margin: 50px auto;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            background: #ffffff;
-        }
-        .login-container h2 {
-            margin-bottom: 20px;
-            font-family: 'Lucida Handwriting', cursive;
-        }
-        .btn-custom {
-            background: #343a40;
-            color: #ffffff;
-            border-radius: 25px;
-        }
-        .btn-custom:hover {
-            background: #495057;
-        }
-        .btn-forgot {
-            background: #dc3545;
-            color: #ffffff;
-            border-radius: 25px;
-        }
-        .btn-forgot:hover {
-            background: #c82333;
-        }
-    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
